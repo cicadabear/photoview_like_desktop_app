@@ -37,3 +37,24 @@ html {
     max-width: revert;
   }
 }
+
+
+.boxdraw {
+  background: rgba(56, 135, 190, 0.1);
+  border: 2px solid #3887be;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+.mapbox-gl-media_ctrl {
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: auto;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='29' height='29' viewBox='-1 -1 26 26' xmlns='http://www.w3.org/2000/svg' fill='%23333'%3E %3Cpath d='M2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H3A1,1,0,0,0,2,3ZM6.256,20a7,7,0,0,1,11.488,0ZM4,4H20V19.937a8.95,8.95,0,0,0-16,0Zm8,10a4,4,0,1,0-4-4A4,4,0,0,0,12,14Zm0-6a2,2,0,1,1-2,2A2,2,0,0,1,12,8Z'/%3E %3C/svg%3E");
+}
+
+
+

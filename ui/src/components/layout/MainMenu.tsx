@@ -86,7 +86,7 @@ export const MainMenu = () => {
     !!faceDetectionEnabledQuery?.data?.siteInfo?.faceDetectionEnabled
 
   return (
-    <div className="fixed w-full bottom-0 lg:bottom-auto lg:top-[84px] z-30 bg-white dark:bg-dark-bg shadow-separator lg:shadow-none lg:w-[240px] lg:ml-8 lg:mr-5 flex-shrink-0">
+    <div className="fixed w-full bottom-0 lg:bottom-auto lg:top-[70px] z-30 bg-white dark:bg-dark-bg shadow-separator lg:shadow-none lg:w-[100px] lg:ml-8 lg:mr-5 flex-shrink-0">
       <ul className="flex justify-around py-2 px-2 max-w-lg mx-auto lg:flex-col lg:p-0">
         <MenuButton
           to="/timeline"

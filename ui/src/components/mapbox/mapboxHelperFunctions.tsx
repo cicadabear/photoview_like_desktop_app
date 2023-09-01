@@ -25,6 +25,7 @@ export const registerMediaMarkers = (args: registerMediaMarkersArgs) => {
   args.map.on('move', updateMarkers)
   args.map.on('moveend', updateMarkers)
   args.map.on('sourcedata', updateMarkers)
+  
   updateMarkers()
 }
 
@@ -36,7 +37,6 @@ const makeUpdateMarkers =
   () => {
     const newMarkers: typeof markers = {}
     const features = map.querySourceFeatures('media')
-
     // for every media on the screen, create an HTML marker for it (if we didn't yet),
     // and add it to the map if it's not there already
     for (const feature of features) {

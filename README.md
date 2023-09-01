@@ -9,7 +9,7 @@
 3. Store current mapbox center and zoom for next time initiation.  
 
 ### Notice  
-Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to
+Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.  
 
 ### Related links
 https://github.com/cicadabear/show_in_file_manager  

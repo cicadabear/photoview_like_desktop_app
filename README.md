@@ -9,7 +9,9 @@
 3. Store current mapbox center and zoom for next time initiation.  
 
 ### Notice  
-Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.  
+1. Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.  
+
+2. If you know a desktop app that can show images on a map, and manage the image files on the map, please leave a comment on issues and let me know.
 
 ### Related links
 https://github.com/cicadabear/show_in_file_manager  

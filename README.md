@@ -1,11 +1,3 @@
-<img src="./screenshots/photoview-logo.svg" height="92px" alt="photoview logo" />
-
-[![License](https://img.shields.io/github/license/viktorstrate/photoview)](./LICENSE.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/viktorstrate/photoview)](https://github.com/viktorstrate/photoview/graphs/contributors)
-[![Docker Pulls](https://img.shields.io/docker/pulls/viktorstrate/photoview)](https://hub.docker.com/r/viktorstrate/photoview)
-[![Docker builds](https://github.com/photoview/photoview/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/photoview/photoview/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/photoview/photoview/branch/master/graph/badge.svg?token=AATZKC93F7)](https://codecov.io/gh/photoview/photoview)
-
 ![screenshot](./screenshots/show_in_file_manager.png)
 ![screenshot](./screenshots/show_in_file_manager2.png)
 ![screenshot.gif](./screenshots/screen_recording.gif)
@@ -17,13 +9,23 @@
 3. Store current mapbox center and zoom for next time initiation.  
 
 ### Notice  
-Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.
+Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to
 
 ### Related links
 https://github.com/cicadabear/show_in_file_manager  
 
 
 ***
+
+<img src="./screenshots/photoview-logo.svg" height="92px" alt="photoview logo" />
+
+[![License](https://img.shields.io/github/license/viktorstrate/photoview)](./LICENSE.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/viktorstrate/photoview)](https://github.com/viktorstrate/photoview/graphs/contributors)
+[![Docker Pulls](https://img.shields.io/docker/pulls/viktorstrate/photoview)](https://hub.docker.com/r/viktorstrate/photoview)
+[![Docker builds](https://github.com/photoview/photoview/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/photoview/photoview/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/photoview/photoview/branch/master/graph/badge.svg?token=AATZKC93F7)](https://codecov.io/gh/photoview/photoview)
+![screenshot](./screenshots/timeline.png)
+
 Photoview is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
 
 You configure Photoview to look for photos and videos within a directory on your file system. The scanner automatically picks up your media and start to generate thumbnail images to make browsing super fast.

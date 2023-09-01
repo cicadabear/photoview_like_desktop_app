@@ -6,8 +6,24 @@
 [![Docker builds](https://github.com/photoview/photoview/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/photoview/photoview/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/photoview/photoview/branch/master/graph/badge.svg?token=AATZKC93F7)](https://codecov.io/gh/photoview/photoview)
 
-![screenshot](./screenshots/timeline.png)
+![screenshot](./screenshots/show_in_file_manager.png)
+![screenshot](./screenshots/show_in_file_manager2.png)
+![screenshot.gif](./screenshots/screen_recording.gif)
 
+***  
+## New features  
+1. Show image files covered by rectangle in desktop file manager. 
+2. Toggle media layer display.  
+3. Store current mapbox center and zoom for next time initiation.  
+
+### Notice  
+Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.
+
+### Related links
+https://github.com/cicadabear/show_in_file_manager  
+
+
+***
 Photoview is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
 
 You configure Photoview to look for photos and videos within a directory on your file system. The scanner automatically picks up your media and start to generate thumbnail images to make browsing super fast.

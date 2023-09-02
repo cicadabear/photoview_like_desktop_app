@@ -4,14 +4,14 @@
 
 ***  
 ## New features  
-1. Show image files covered by rectangle in desktop file manager. 
+1. Show image files covered by the rectangle in the desktop file manager. 
 2. Toggle media layer display.  
-3. Store current mapbox center and zoom for next time initiation.  
+3. Store the current mapbox center and zoom for next time initiation.  
 
 ### Notice  
 1. Due to the different URL length limit in different browsers, if you want to show more than 150 image files, you may need to use Firefox.  
 
-2. If you know a desktop app that can show images on a map, and manage the image files on the map, please leave a comment on issues and let me know.
+2. If you know a desktop app that can show images on a map, and manage the image files on the map, please let me know and leave a comment on issues.
 
 ### Related links
 https://github.com/cicadabear/show_in_file_manager  

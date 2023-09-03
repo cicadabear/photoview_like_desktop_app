@@ -13,8 +13,9 @@
 
 2. If you know a desktop app that can show images on a map, and manage the image files on the map, please let me know and leave a comment on issues.
 
-### Related links
-https://github.com/cicadabear/show_in_file_manager  
+### Related links   
+https://github.com/cicadabear/show_in_file_manager    
+https://hub.docker.com/repository/docker/cicadabear/photoview_like_desktop_app  
 
 
 ***

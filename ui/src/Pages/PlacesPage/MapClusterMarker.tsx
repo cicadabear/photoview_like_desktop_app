@@ -52,6 +52,8 @@ const MapClusterMarker = ({
   const thumbnail = JSON.parse(marker.thumbnail) as { url: string }
 
   const presentMedia = () => {
+    console.log(marker.coords[1] + ' ' + marker.coords[0])
+    console.log(decodeURI(thumbnail.url))
     dispatchMarkerMedia({
       type: 'replacePresentMarker',
       marker: {

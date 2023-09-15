@@ -141,6 +141,7 @@ const configureMapbox =
       eventHandler: toggleMediaLayer,
     })
     map.addControl(mediaToggleCtrl)
+    map.addControl(new mapboxgl.ScaleControl())
 
     map.on('idle', () => {
       localStorage.setItem(

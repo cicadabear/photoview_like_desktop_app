@@ -73,6 +73,7 @@ export interface MediaMarker {
   point_count_abbreviated: number
   cluster_id: string
   media_id: string
+  coords: [number,number]
 }
 
 type MapPresetMarkerProps = {

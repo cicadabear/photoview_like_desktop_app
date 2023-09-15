@@ -47,7 +47,7 @@ const makeUpdateMarkers =
         console.warn('WARN: geojson feature had no properties', feature)
         continue
       }
-
+      props.coords = coords
       const id = props.cluster
         ? `cluster_${props.cluster_id}`
         : `media_${props.media_id}`

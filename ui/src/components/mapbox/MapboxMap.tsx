@@ -58,11 +58,37 @@ const useMapboxMap = ({
     if (mapboxData.mapboxToken)
       mapboxLibrary.accessToken = mapboxData.mapboxToken
 
+    // map.current = new mapboxLibrary.Map({
+    //   container: mapContainer.current,
+    //   style: isDarkMode()
+    //     ? 'mapbox://styles/mapbox/dark-v10'
+    //     : 'mapbox://styles/mapbox/streets-v11',
+    //   ...mapboxOptions,
+    // })
+
     map.current = new mapboxLibrary.Map({
       container: mapContainer.current,
-      style: isDarkMode()
-        ? 'mapbox://styles/mapbox/dark-v10'
-        : 'mapbox://styles/mapbox/streets-v11',
+      style: {
+        version: 8,
+        sources: {
+          'raster-tiles': {
+            type: 'raster',
+            tiles: [
+              'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+            ],
+            tileSize: 256,
+          },
+        },
+        layers: [
+          {
+            id: 'simple-tiles',
+            type: 'raster',
+            source: 'raster-tiles',
+            minzoom: 0,
+            maxzoom: 22,
+          },
+        ],
+      },
       ...mapboxOptions,
     })
 

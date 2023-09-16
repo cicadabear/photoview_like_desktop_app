@@ -39,7 +39,6 @@ const QUERY_MEDIA = gql`
 const getMediaFromMarker = (map: mapboxgl.Map, presentMarker: PresentMarker) =>
   new Promise<MediaMarker[]>((resolve, reject) => {
     const { cluster, id } = presentMarker
-
     if (cluster) {
       const mediaSource = map.getSource('media') as mapboxgl.GeoJSONSource
 
@@ -133,6 +132,7 @@ const MapPresentMarker = ({
         activeMedia={markerMediaState.media[markerMediaState.activeIndex]}
         dispatchMedia={dispatchMarkerMedia}
         disableSaveCloseInHistory={true}
+        imageLoaded={()=>{console.log((markerMediaState.media[markerMediaState.activeIndex]).title)}}
       />
     )
   } else {

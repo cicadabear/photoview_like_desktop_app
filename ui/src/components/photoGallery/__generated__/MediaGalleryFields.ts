@@ -45,6 +45,7 @@ export interface MediaGalleryFields {
   __typename: 'Media'
   id: string
   type: MediaType
+  title: string
   /**
    * A short string that can be used to generate a blured version of the media, to show while the original is loading
    */

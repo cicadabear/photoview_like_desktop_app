@@ -58,6 +58,13 @@ const PresentView = ({
           closePresentModeAction({ dispatchMedia })
         }
       }
+
+      if (e.key == 'f'){
+        e.stopPropagation()
+        console.log(activeMedia)
+        location.href = 'ShowInFileManager:' + activeMedia.title
+      }
+
     }
 
     document.addEventListener('keydown', keyDownEvent)
